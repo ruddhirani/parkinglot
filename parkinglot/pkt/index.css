@@ -1,0 +1,199 @@
+@media (min-width:1440px) and (max-width:10000px)
+{
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.img-area
+{
+        background-image:url(bg.jpg);
+        -webkit-background-size:cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: center,center; */
+        position: fixed; 
+        height: 100%;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        filter: blur(5px);
+}
+
+h1
+{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    color: #008080;
+    background-color: #E0FFFF;
+    font-variant: small-caps;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+  align-items: center;
+  background: blanchedalmond;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s;
+  position: relative;  
+  opacity: 0.7;
+}
+nav ul {
+  display: flex;  
+  margin: 15px;
+  flex-direction: row;                        
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 18px;
+}
+nav ul li a {
+  color: dodgerblue;
+  display: inline-block;
+  padding: 3px 22px;
+  font-weight: bold;
+  float: inherit;
+  text-decoration: none;
+}
+
+.content{ padding:30px }
+
+div.rightdetails
+{
+    margin-top: 100px;
+    height: 100%;
+    border-left: 5px solid black; 
+    float: right;
+    width: 50%;
+    font-size: 30px;
+}
+
+div.name,.vname,.vnum,.entrydate,.exitdate
+{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    color:#5c130f;
+    font-weight: bold;
+     padding: 5px;
+    float: left;
+    clear: both;
+    
+}
+
+.rightdetails input{
+    border-radius: 20px;
+    font-size:20px;
+    border: 2px solid black;
+}
+#li1
+{
+    color: royalblue;
+    font-size: larger;
+    font-style: oblique;
+}
+#li2
+{
+    color: royalblue;
+    font-size: larger;
+    font-style: oblique;
+}
+
+
+
+
+div.btndiv
+{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.btnsubmit
+{
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.btnsubmit:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
+.leftdetails
+{
+    text-align: center;
+    width: 49%;
+    /* background-color: red; */
+    /* color: rgb(255, 0, 0); */
+    float: left;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 30px;
+    /* border: 3px solid red; */
+}
+
+div.leftdetails h4
+{
+    color: #5c130f;
+    font-weight:bolder;
+    background-color: antiquewhite;
+    margin: 1% 0%;
+    border-radius: 50px;
+}
+input
+{
+    text-align: center;
+}
+
+table
+{   
+   border: 3px solid #5c130f;
+   /* color: rgb(0, 174, 255); */
+   font-size: 13px;
+   width: 100%;
+}
+
+ th
+{
+    /* border: 3px solid red; */
+    font-size: 20px;
+    border-right: 2px solid #5c130f;
+    border-bottom: 1px solid #5c130f;
+ }
+
+ #unpark
+ {
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10%;
+    width: 40%;   
+    border-radius: 8px;
+    border: 2px solid black;
+ }
+
+ 
+#unpark:hover
+{
+    background-color: black;
+    color: white;
+}
+
+}
+
